@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary:#F9D6D7;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-button: #f271897d;
+    --color-button-hover: #F27188;
+    --color-text: #797979;
+    
 }
 
 /* Estilos generales */
@@ -32,16 +32,17 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 30px 0 0;
+    width: 100%;
 }
 
 /* Sección de entrada */
 .input-section {
-    flex: 60%;
+    flex: 40%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
@@ -58,14 +59,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-secondary);
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #5865D6;
     margin: 10px 0;
     text-align: center;
 }
